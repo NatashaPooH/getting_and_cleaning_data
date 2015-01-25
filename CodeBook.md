@@ -54,7 +54,7 @@ Remove characters -()
 Replace BodyBody with Body
 Variables in raw and tidy data set
 
-Raw data set:	"subject
+Rawdataset:	"subject"
 label 
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
