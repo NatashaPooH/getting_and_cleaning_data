@@ -6,7 +6,8 @@ date: "Sunday, January 25, 2015"
 
 This is an R Markdown document
 
-*Raw data set*
+**Raw data set**
+
 In order to create a raw data set, the following regular expression was used: -(mean|std)[(]. I.e. all variables containing -mean( or -std( in their names were filtered.
 the raw data set contains 68 variables:
 
@@ -16,30 +17,30 @@ Plus 66 filtered features.
 These signals were used to estimate variables of the feature vector for each pattern:
 -XYZ is used to denote 3-axial signals in the X, Y and Z directions.
 
-*tBodyAcc-XYZ
-*tGravityAcc-XYZ
-*tBodyAccJerk-XYZ
-*tBodyGyro-XYZ
-*tBodyGyroJerk-XYZ
-*tBodyAccMag
-*tGravityAccMag
-*tBodyAccJerkMag
-*tBodyGyroMag
-*tBodyGyroJerkMag
-*fBodyAcc-XYZ
-*fBodyAccJerk-XYZ
-*fBodyGyro-XYZ
-*fBodyAccMag
-*fBodyAccJerkMag
-*fBodyGyroMag
-*fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are:
 
-*mean(): Mean value
-*std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
-*Tidy data set*
+**Tidy data set**
 
 Tidy data set contains the same variables as the raw does, but the variables were renamed according to following rules:
 
@@ -49,12 +50,12 @@ Not duplicated - the variable names are unique, so again nothing special had to 
 Not have underscores or dots or white spaces - dashes and parentheses were removed from variable names.
 To satisfy the requirements above, the following replacements were performed:
 
-*Replace -mean with Mean
-*Replace -std with Std
-*Remove characters -()
-*Replace BodyBody with Body
+* Replace -mean with Mean
+* Replace -std with Std
+* Remove characters -()
+* Replace BodyBody with Body
 
-*Variables in raw and tidy data set*
+**Variables in raw and tidy data set**
 
 Raw data set  | Tidy data set
 subject	| subject
