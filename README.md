@@ -1,7 +1,7 @@
-## READ_ME.md
-#author Natalya Sinitsyna
-# getting_and_cleaning_data
-#project of getting and cleaning data class on Coursera
+# READ_ME.md
+##author Natalya Sinitsyna
+##getting_and_cleaning_data
+##project of getting and cleaning data class on Coursera
 
 This repo contains project code for Getting and Cleaning Data course given by John Hopkins university on Coursera.
 
