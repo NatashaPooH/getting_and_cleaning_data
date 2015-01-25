@@ -54,12 +54,14 @@ Remove characters -()
 Replace BodyBody with Body
 Variables in raw and tidy data set
 
-Raw data set:	"subject", "label", "tBodyAcc-mean()-X"
-"tBodyAcc-mean()-Y"
-"tBodyAcc-mean()-Z"
-"tBodyAcc-std()-X"
-"tBodyAcc-std()-Y"
-"tBodyAcc-std()-Z"
+Raw data set:	"subject
+label 
+tBodyAcc-mean()-X
+tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z
+tBodyAcc-std()-X
+tBodyAcc-std()-Y
+tBodyAcc-std()-Z
 tGravityAcc-mean()-X
 tGravityAcc-mean()-Y
 tGravityAcc-mean()-Z
@@ -119,7 +121,7 @@ fBodyBodyAccJerkMag-std()
 fBodyBodyGyroMag-mean()
 fBodyBodyGyroMag-std()
 fBodyBodyGyroJerkMag-mean()
-fBodyBodyGyroJerkMag-std()
+fBodyBodyGyroJerkMag-std()"
 
 Tidy data set:
 subject
