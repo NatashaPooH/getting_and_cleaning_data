@@ -54,72 +54,143 @@ Remove characters -()
 Replace BodyBody with Body
 Variables in raw and tidy data set
 
-Raw data set	Tidy data set
-subject	subject
-label	label
-tBodyAcc-mean()-X	tBodyAccMeanX
-tBodyAcc-mean()-Y	tBodyAccMeanY
-tBodyAcc-mean()-Z	tBodyAccMeanZ
-tBodyAcc-std()-X	tBodyAccStdX
-tBodyAcc-std()-Y	tBodyAccStdY
-tBodyAcc-std()-Z	tBodyAccStdZ
-tGravityAcc-mean()-X	tGravityAccMeanX
-tGravityAcc-mean()-Y	tGravityAccMeanY
-tGravityAcc-mean()-Z	tGravityAccMeanZ
-tGravityAcc-std()-X	tGravityAccStdX
-tGravityAcc-std()-Y	tGravityAccStdY
-tGravityAcc-std()-Z	tGravityAccStdZ
-tBodyAccJerk-mean()-X	tBodyAccJerkMeanX
-tBodyAccJerk-mean()-Y	tBodyAccJerkMeanY
-tBodyAccJerk-mean()-Z	tBodyAccJerkMeanZ
-tBodyAccJerk-std()-X	tBodyAccJerkStdX
-tBodyAccJerk-std()-Y	tBodyAccJerkStdY
-tBodyAccJerk-std()-Z	tBodyAccJerkStdZ
-tBodyGyro-mean()-X	tBodyGyroMeanX
-tBodyGyro-mean()-Y	tBodyGyroMeanY
-tBodyGyro-mean()-Z	tBodyGyroMeanZ
-tBodyGyro-std()-X	tBodyGyroStdX
-tBodyGyro-std()-Y	tBodyGyroStdY
-tBodyGyro-std()-Z	tBodyGyroStdZ
-tBodyGyroJerk-mean()-X	tBodyGyroJerkMeanX
-tBodyGyroJerk-mean()-Y	tBodyGyroJerkMeanY
-tBodyGyroJerk-mean()-Z	tBodyGyroJerkMeanZ
-tBodyGyroJerk-std()-X	tBodyGyroJerkStdX
-tBodyGyroJerk-std()-Y	tBodyGyroJerkStdY
-tBodyGyroJerk-std()-Z	tBodyGyroJerkStdZ
-tBodyAccMag-mean()	tBodyAccMagMean
-tBodyAccMag-std()	tBodyAccMagStd
-tGravityAccMag-mean()	tGravityAccMagMean
-tGravityAccMag-std()	tGravityAccMagStd
-tBodyAccJerkMag-mean()	tBodyAccJerkMagMean
-tBodyAccJerkMag-std()	tBodyAccJerkMagStd
-tBodyGyroMag-mean()	tBodyGyroMagMean
-tBodyGyroMag-std()	tBodyGyroMagStd
-tBodyGyroJerkMag-mean()	tBodyGyroJerkMagMean
-tBodyGyroJerkMag-std()	tBodyGyroJerkMagStd
-fBodyAcc-mean()-X	fBodyAccMeanX
-fBodyAcc-mean()-Y	fBodyAccMeanY
-fBodyAcc-mean()-Z	fBodyAccMeanZ
-fBodyAcc-std()-X	fBodyAccStdX
-fBodyAcc-std()-Y	fBodyAccStdY
-fBodyAcc-std()-Z	fBodyAccStdZ
-fBodyAccJerk-mean()-X	fBodyAccJerkMeanX
-fBodyAccJerk-mean()-Y	fBodyAccJerkMeanY
-fBodyAccJerk-mean()-Z	fBodyAccJerkMeanZ
-fBodyAccJerk-std()-X	fBodyAccJerkStdX
-fBodyAccJerk-std()-Y	fBodyAccJerkStdY
-fBodyAccJerk-std()-Z	fBodyAccJerkStdZ
-fBodyGyro-mean()-X	fBodyGyroMeanX
-fBodyGyro-mean()-Y	fBodyGyroMeanY
-fBodyGyro-mean()-Z	fBodyGyroMeanZ
-fBodyGyro-std()-X	fBodyGyroStdX
-fBodyGyro-std()-Y	fBodyGyroStdY
-fBodyGyro-std()-Z	fBodyGyroStdZ
-fBodyAccMag-mean()	fBodyAccMagMean
-fBodyAccMag-std()	fBodyAccMagStd
-fBodyBodyAccJerkMag-mean()	fBodyAccJerkMagMean
-fBodyBodyAccJerkMag-std()	fBodyAccJerkMagStd
-fBodyBodyGyroMag-mean()	fBodyGyroMagMean
-fBodyBodyGyroMag-std()	fBodyGyroMagStd
-fBodyBodyGyroJerkMag-mean()	fBodyGyroJerkMagMean
-fBodyBodyGyroJerkMag-std()	fBodyGyroJerkMagStd
+Raw data set:	
+subject
+label
+tBodyAcc-mean()-X
+tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z
+tBodyAcc-std()-X
+tBodyAcc-std()-Y
+tBodyAcc-std()-Z
+tGravityAcc-mean()-X
+tGravityAcc-mean()-Y
+tGravityAcc-mean()-Z
+tGravityAcc-std()-X
+tGravityAcc-std()-Y
+tGravityAcc-std()-Z
+tBodyAccJerk-mean()-X
+tBodyAccJerk-mean()-Y
+tBodyAccJerk-mean()-Z
+tBodyAccJerk-std()-X
+tBodyAccJerk-std()-Y
+tBodyAccJerk-std()-Z
+tBodyGyro-mean()-X
+tBodyGyro-mean()-Y
+tBodyGyro-mean()-Z
+tBodyGyro-std()-X
+tBodyGyro-std()-Y
+tBodyGyro-std()-Z
+tBodyGyroJerk-mean()-X
+tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Z
+tBodyGyroJerk-std()-X
+tBodyGyroJerk-std()-Y
+tBodyGyroJerk-std()-Z
+tBodyAccMag-mean()
+tBodyAccMag-std()
+tGravityAccMag-mean()
+tGravityAccMag-std()
+tBodyAccJerkMag-mean()
+tBodyAccJerkMag-std()
+tBodyGyroMag-mean()
+tBodyGyroMag-std()
+tBodyGyroJerkMag-mean()
+tBodyGyroJerkMag-std()
+fBodyAcc-mean()-X
+fBodyAcc-mean()-Y
+fBodyAcc-mean()-Z
+fBodyAcc-std()-X
+fBodyAcc-std()-Y
+fBodyAcc-std()-Z
+fBodyAccJerk-mean()-X
+fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Z
+fBodyAccJerk-std()-X
+fBodyAccJerk-std()-Y
+fBodyAccJerk-std()-Z
+fBodyGyro-mean()-X
+fBodyGyro-mean()-Y
+fBodyGyro-mean()-Z
+fBodyGyro-std()-X
+fBodyGyro-std()-Y
+fBodyGyro-std()-Z
+fBodyAccMag-mean()
+fBodyAccMag-std()
+fBodyBodyAccJerkMag-mean()
+fBodyBodyAccJerkMag-std()
+fBodyBodyGyroMag-mean()
+fBodyBodyGyroMag-std()
+fBodyBodyGyroJerkMag-mean()
+fBodyBodyGyroJerkMag-std()
+
+Tidy data set:
+subject
+label
+tBodyAccMeanX
+tBodyAccMeanY
+tBodyAccMeanZ
+tBodyAccStdX
+tBodyAccStdY
+tBodyAccStdZ
+tGravityAccMeanX
+tGravityAccMeanY
+tGravityAccMeanZ
+tGravityAccStdX
+tGravityAccStdY
+tGravityAccStdZ
+tBodyAccJerkMeanX
+tBodyAccJerkMeanY
+tBodyAccJerkMeanZ
+tBodyAccJerkStdX
+tBodyAccJerkStdY
+tBodyAccJerkStdZ
+tBodyGyroMeanX
+tBodyGyroMeanY
+tBodyGyroMeanZ
+tBodyGyroStdX
+tBodyGyroStdY
+tBodyGyroStdZ
+tBodyGyroJerkMeanX
+tBodyGyroJerkMeanY
+tBodyGyroJerkMeanZ
+tBodyGyroJerkStdX
+tBodyGyroJerkStdY
+tBodyGyroJerkStdZ
+tBodyAccMagMean
+tBodyAccMagStd
+tGravityAccMagMean
+tGravityAccMagStd
+tBodyAccJerkMagMean
+tBodyAccJerkMagStd
+tBodyGyroMagMean
+tBodyGyroMagStd
+tBodyGyroJerkMagMean
+tBodyGyroJerkMagStd
+fBodyAccMeanX
+fBodyAccMeanY
+fBodyAccMeanZ
+fBodyAccStdX
+fBodyAccStdY
+fBodyAccStdZ
+fBodyAccJerkMeanX
+fBodyAccJerkMeanY
+fBodyAccJerkMeanZ
+fBodyAccJerkStdX
+fBodyAccJerkStdY
+fBodyAccJerkStdZ
+fBodyGyroMeanX
+fBodyGyroMeanY
+fBodyGyroMeanZ
+fBodyGyroStdX
+fBodyGyroStdY
+fBodyGyroStdZ
+fBodyAccMagMean
+fBodyAccMagStd
+fBodyAccJerkMagMean
+fBodyAccJerkMagStd
+fBodyGyroMagMean
+fBodyGyroMagStd
+fBodyGyroJerkMagMean
+fBodyGyroJerkMagStd
+
